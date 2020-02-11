@@ -1,11 +1,22 @@
+
 package co.com.strevens.sga.domain;
 
 import java.io.Serializable;
+import javax.persistence.*;
 
-
+@Entity
+@NamedQueries({//JPQL -> Recupara objetos en vez de las columnas(Java Persistence Query Language)
+    @NamedQuery(name="Persona.findAll", query="SELECT p FROM Persona p ORDER BY p.idPersona")
+})
+@Table(name="persona") // Se puede usar para especificar el nombre asociado a la BD
 public class Persona implements Serializable{
     private static final long serialVersionUID = 1L;
+    
+    @Id
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @Column(name="id_persona")
     private int idPersona;
+    
     private String nombre;
     private String apellido;
     private String email;
@@ -14,14 +25,14 @@ public class Persona implements Serializable{
     public Persona() {
     }
 
-    public Persona(int idPersona, String nombre, String apellido, String email, String telefono) {
-        this.idPersona = idPersona;
+    public Persona(String nombre, String apellido, String email, String telefono) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.email = email;
         this.telefono = telefono;
     }
 
+    
     public int getIdPersona() {
         return idPersona;
     }

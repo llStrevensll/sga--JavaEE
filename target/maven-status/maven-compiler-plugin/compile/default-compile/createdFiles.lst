@@ -1,5 +1,7 @@
 co\com\strevens\sga\servicio\PersonaServiceRemote.class
 co\com\strevens\sga\servicio\PersonaService.class
+co\com\strevens\sga\datos\PersonaDao.class
+co\com\strevens\sga\datos\PersonaDaoImpl.class
 co\com\strevens\sga\domain\Persona.class
 co\com\strevens\sga\servicio\PersonaServiceImpl.class
 co\com\strevens\sga\web\PersonaServlet.class
