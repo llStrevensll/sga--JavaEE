@@ -1,8 +1,14 @@
-co\com\strevens\sga\servicio\PersonaServiceRemote.class
 co\com\strevens\sga\servicio\PersonaService.class
+co\com\strevens\sga\datos\UsuarioDao.class
+co\com\strevens\sga\servicio\UsuarioServiceImpl.class
+co\com\strevens\sga\servicio\UsuarioServiceRemote.class
+co\com\strevens\sga\domain\Persona.class
+co\com\strevens\sga\servicio\UsuarioService.class
+co\com\strevens\sga\web\PersonaServlet.class
+co\com\strevens\sga\servicio\PersonaServiceRemote.class
+co\com\strevens\sga\datos\UsuarioDaoImpl.class
+co\com\strevens\sga\web\UsuarioServlet.class
 co\com\strevens\sga\datos\PersonaDao.class
 co\com\strevens\sga\datos\PersonaDaoImpl.class
 co\com\strevens\sga\domain\Usuario.class
-co\com\strevens\sga\domain\Persona.class
 co\com\strevens\sga\servicio\PersonaServiceImpl.class
-co\com\strevens\sga\web\PersonaServlet.class

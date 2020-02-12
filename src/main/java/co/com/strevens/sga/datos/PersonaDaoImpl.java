@@ -9,7 +9,7 @@ import javax.persistence.*;
 @Stateless
 public class PersonaDaoImpl  implements PersonaDao{
     
-    @PersistenceContext(unitName="PersonaPU") //Persona PU definido en persistence.xml
+    @PersistenceContext(unitName="SgaPU") //Sga PU definido en persistence.xml
     EntityManager entityManager;
 
     @Override
