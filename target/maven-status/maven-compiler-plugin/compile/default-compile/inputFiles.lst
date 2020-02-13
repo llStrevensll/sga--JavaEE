@@ -5,11 +5,15 @@ C:\Users\angue\Documents\NetBeansProjects\mavenproject3\sga-jee-web\src\main\jav
 C:\Users\angue\Documents\NetBeansProjects\mavenproject3\sga-jee-web\src\main\java\co\com\strevens\sga\servicio\UsuarioServiceRemote.java
 C:\Users\angue\Documents\NetBeansProjects\mavenproject3\sga-jee-web\src\main\java\co\com\strevens\sga\servicio\UsuarioServiceImpl.java
 C:\Users\angue\Documents\NetBeansProjects\mavenproject3\sga-jee-web\src\main\java\co\com\strevens\sga\web\UsuarioServlet.java
+C:\Users\angue\Documents\NetBeansProjects\mavenproject3\sga-jee-web\src\main\java\co\com\strevens\sga\ciclovidajpa\EncontrarObjetoJPA.java
+C:\Users\angue\Documents\NetBeansProjects\mavenproject3\sga-jee-web\src\main\java\co\com\strevens\sga\ciclovidajpa\ActualizarObjetoSesionLarga.java
 C:\Users\angue\Documents\NetBeansProjects\mavenproject3\sga-jee-web\src\main\java\co\com\strevens\sga\datos\PersonaDaoImpl.java
 C:\Users\angue\Documents\NetBeansProjects\mavenproject3\sga-jee-web\src\main\java\co\com\strevens\sga\ciclovidajpa\PersistirObjetoJPA.java
+C:\Users\angue\Documents\NetBeansProjects\mavenproject3\sga-jee-web\src\main\java\co\com\strevens\sga\ciclovidajpa\EliminarObjetoJPA.java
 C:\Users\angue\Documents\NetBeansProjects\mavenproject3\sga-jee-web\src\main\java\co\com\strevens\sga\datos\PersonaDao.java
 C:\Users\angue\Documents\NetBeansProjects\mavenproject3\sga-jee-web\src\main\java\co\com\strevens\sga\domain\Usuario.java
 C:\Users\angue\Documents\NetBeansProjects\mavenproject3\sga-jee-web\src\main\java\co\com\strevens\sga\servicio\PersonaServiceImpl.java
+C:\Users\angue\Documents\NetBeansProjects\mavenproject3\sga-jee-web\src\main\java\co\com\strevens\sga\ciclovidajpa\ActualizarObjetoJPA.java
 C:\Users\angue\Documents\NetBeansProjects\mavenproject3\sga-jee-web\src\main\java\co\com\strevens\sga\servicio\PersonaService.java
 C:\Users\angue\Documents\NetBeansProjects\mavenproject3\sga-jee-web\src\main\java\co\com\strevens\sga\servicio\PersonaServiceRemote.java
 C:\Users\angue\Documents\NetBeansProjects\mavenproject3\sga-jee-web\src\main\java\co\com\strevens\sga\web\PersonaServlet.java

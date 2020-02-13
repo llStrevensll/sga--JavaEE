@@ -4,6 +4,7 @@ package co.com.strevens.sga.servicio;
 import co.com.strevens.sga.datos.PersonaDao;
 import co.com.strevens.sga.domain.Persona;
 import java.util.List;
+import javax.ejb.SessionContext;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 
@@ -13,6 +14,9 @@ public class PersonaServiceImpl implements PersonaServiceRemote, PersonaService{
     //Inyectar capa de datos
     @Inject
     private PersonaDao personaDao;
+    
+    //Variable contexto para transacción
+    private SessionContext contexto;
     
     @Override
     public List<Persona> listarPersona() {
@@ -37,7 +41,13 @@ public class PersonaServiceImpl implements PersonaServiceRemote, PersonaService{
 
     @Override
     public void modificarPersona(Persona persona) {
-        personaDao.updatePersona(persona);
+        try{
+            personaDao.updatePersona(persona);
+        } catch(Throwable r){
+            contexto.setRollbackOnly();
+            r.printStackTrace(System.out);
+        }
+        
     }
 
     @Override
